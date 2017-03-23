@@ -1,0 +1,8 @@
+# you will need to install these requirements with `pip install -r requirements.txt`
+aiohttp-jinja2
+aiohttp-session[secure]
+aiohttp
+cryptography
+pytest-aiohttp
+pytest-cov
+pytest
