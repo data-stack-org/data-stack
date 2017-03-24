@@ -9,8 +9,8 @@ from aiohttp_jinja2 import APP_KEY as JINJA2_APP_KEY
 import aiohttp_session
 from aiohttp_session.cookie_storage import EncryptedCookieStorage
 
-from settings import Settings
-from handlers.index import index
+from .settings import Settings
+from .handlers.index import index
 
 
 THIS_DIR = Path(__file__).parent
