@@ -2,8 +2,8 @@
 # App settings go here, they're validated in app.settings
 
 # the AIO_ env variables are used by `adev runserver` when serving your app for development
-export AIO_APP_PATH="app/"
-export AIO_STATIC_PATH="static/"
+export AIO_APP_PATH="data_stack/"
+export AIO_STATIC_PATH="data_stack/static/"
 
 # this is the key used to encrypt cookies. Keep it safe!
 # you can generate a new key with `base64.urlsafe_b64encode(os.urandom(32))`
